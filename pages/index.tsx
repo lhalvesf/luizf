@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div className='container mt-5 d-flex align-content-center justify-content-center'>
         <div className='mt-5 d-flex flex-column justify-content-center'>
           <h2 className='text-center mb-5'>Site em construção</h2>
-          <iframe className="d-block float-center " src="https://giphy.com/embed/ule4vhcY1xEKQ" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+          <iframe className="d-block float-center giphy-embed" src="https://giphy.com/embed/ule4vhcY1xEKQ" width="480" height="480" frameBorder="0" allowFullScreen></iframe>
         </div>
       </div>
 
