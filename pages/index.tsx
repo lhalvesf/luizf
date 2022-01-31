@@ -71,12 +71,12 @@ const Home: NextPage = () => {
             <br />
 
             <section>
-              <h3>Hi, Im Luiz</h3>
+              <h3>Hi, I'm Luiz</h3>
               <p className='lead'>
-                Im a web developer based in São Paulo, BR. I’m currently SR frontend developer at a local agency, Maac Tech.
+                Im a web developer based in São Paulo, BR. Im currently SR frontend developer at a local agency, Maac Tech.
                 In my spare time I like working with a few select clients and building my own products on Kurupako
                 <br />
-                My most recent product is Kurutaco. It’s a simple, but powerful, calorie tracker app.
+                My most recent product is Kurutaco. Its a simple, but powerful, calorie tracker app.
                 <br />
                 {/* You can usually find me on Twitter, but I'm occasionally on Product Hunt and Reddit as well. */}
               </p>
