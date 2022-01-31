@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }, [portfolios]);
 
     /* effects */
-    useEffect(() => { fetchPortfolio(); }, []);
+    useEffect(() => { fetchPortfolio(); }, [fetchPortfolio]);
 
   return (
     <div className={styles.container}>
@@ -71,9 +71,9 @@ const Home: NextPage = () => {
             <br />
 
             <section>
-              <h3>Hi, I'm Luiz</h3>
+              <h3>Hi, Im Luiz</h3>
               <p className='lead'>
-                I'm a web developer based in São Paulo, BR. I’m currently SR frontend developer at a local agency, Maac Tech.
+                Im a web developer based in São Paulo, BR. I’m currently SR frontend developer at a local agency, Maac Tech.
                 In my spare time I like working with a few select clients and building my own products on Kurupako
                 <br />
                 My most recent product is Kurutaco. It’s a simple, but powerful, calorie tracker app.

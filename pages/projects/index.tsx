@@ -53,7 +53,7 @@ const Projects: NextPage = () => {
             <section>
               <h3>Projects</h3>
               <p className='lead'>
-                There's no projects yet.
+                Theres no projects yet.
                 <br />
                 {/* You can usually find me on Twitter, but I'm occasionally on Product Hunt and Reddit as well. */}
               </p>

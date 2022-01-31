@@ -51,7 +51,7 @@ const Work: NextPage = () => {
             <br />
 
             <section>
-              <h3>Hi, I'm Luiz</h3>
+              <h3>Hi, Im Luiz</h3>
               <p className='lead'>
                 Work
                 <br />

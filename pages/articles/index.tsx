@@ -53,7 +53,7 @@ const Articles: NextPage = () => {
             <section>
               <h3>Articles</h3>
               <p className='lead'>
-                There's no articles yet.
+                Theres no articles yet.
                 <br />
                 {/* You can usually find me on Twitter, but I'm occasionally on Product Hunt and Reddit as well. */}
               </p>
