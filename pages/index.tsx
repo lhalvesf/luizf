@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }, [portfolios]);
 
     /* effects */
-    useEffect(() => { fetchPortfolio(); }, [fetchPortfolio]);
+    useEffect(() => { fetchPortfolio(); }, []);
 
   return (
     <div className={styles.container}>
