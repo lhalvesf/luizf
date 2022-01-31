@@ -34,7 +34,7 @@ const Home: NextPage = () => {
       </Head>
 
       <section className='container px-5 py-5 mt-5'>
-        <div className='d-flex'>
+        <div className='d-flex flex-column flex-lg-row'>
 
           <div className='pe-5'>
             <Image src="/image.jpg" alt="" className='rounded-circle' width={200} height={200} />
@@ -45,8 +45,8 @@ const Home: NextPage = () => {
             <div className={styles.lineDecorator}></div>
             <ul className='list-inline'>
               <li className='list-inline-item'>
-                <Link href={'/work'}>
-                  WORK
+                <Link href={'/'}>
+                  HOME
                 </Link>
               </li>
               <li className='list-inline-item'>
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               </li>
               <li className='list-inline-item'>
                 <Link href={'/articles'}>
-                  ARTICLES
+                  BLOG
                 </Link>
               </li>
               <li className='list-inline-item'>
@@ -82,16 +82,17 @@ const Home: NextPage = () => {
               </p>
             </section>
 
+            <br/>
+
             <section>
-              <div>
+              <div className='mt-5'>
+                <h3>RECENT POSTS</h3>
                 { portfolios && portfolios.map((portfolio: any) => (
                   <>
                       <br/>
-                      <br/>
-                      <br/>
-                      <h3>RECENT POSTS</h3>
                       <div>
                         <h3 key={portfolio.title}>{portfolio.title} </h3>
+                        <p>{new Date(portfolio.publishedAt).toLocaleDateString('pt-br')}</p>
                       </div>
                   </>
                 ))}

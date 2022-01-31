@@ -52,11 +52,21 @@ const Projects: NextPage = () => {
 
             <section>
               <h3>Projects</h3>
-              <p className='lead'>
-                Theres no projects yet.
-                <br />
-                {/* You can usually find me on Twitter, but I'm occasionally on Product Hunt and Reddit as well. */}
-              </p>
+              <br/>
+              <div className='d-flex'>
+                <Image src="/projects/postavagas.png" alt="" width={'500'} height={'300'} />
+                <p className='lead ms-5'>
+                  <strong>Posta Vagas</strong> (fullstack)
+                  <br/>
+                   <em>javascript, strapi headless cms, vuejs, nuxtjs</em>
+                  <br/>
+                  <br/>
+                  You can usually find me on Twitter, but I'm occasionally on Product Hunt and Reddit as well.
+                  <br/>
+                  <br/>
+                  <button className='btn btn-primary'>see projetc</button>
+                </p>
+              </div>
             </section>
 
 
