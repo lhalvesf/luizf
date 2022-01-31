@@ -82,6 +82,22 @@ const Home: NextPage = () => {
               </p>
             </section>
 
+            <section>
+              <div>
+                { portfolios && portfolios.map((portfolio: any) => (
+                  <>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <h3>RECENT POSTS</h3>
+                      <div>
+                        <h3 key={portfolio.title}>{portfolio.title} </h3>
+                      </div>
+                  </>
+                ))}
+              </div>
+            </section>
+
 
           </div>
 
